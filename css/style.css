@@ -1,0 +1,163 @@
+body{
+    font-family: 'Montserrat';    
+}
+
+.navbar{
+    background-color: #1E1E20;
+}
+
+.nav-item{
+    margin-right: 25px;
+    font-weight: 200;
+}
+
+
+.nav-item.active a{
+    color: #F3C771 !important;
+    font-weight: 600;
+}
+
+.nav-link span{
+    color: #F3C771;
+    font-weight: 600;
+}
+
+.fa {
+    padding-top: 5px;
+}
+
+.carousel {
+    height: 700;
+    background-color: #303135;
+    color: white;
+}
+
+.carousel h1{
+    font-family: 'Lora';
+}
+
+.carousel p{
+    font-weight: 200;
+}
+
+.bagian-kiri {
+    float: left;
+    padding-top: 40px;
+}
+
+.bagian-kanan {
+    float: right;
+    padding-top: 40px;
+    padding-bottom: 20px;
+}
+
+.bagian-kiri h1{
+    font-size: 25px;
+}
+
+.bagian-kiri p{
+    font-size: 15px;
+}
+
+.bagian-kanan h1{
+    font-size: 15px;
+}
+
+.bagian-kanan p {
+    font-size: 10px;
+}
+
+
+.features h3{
+    font-family: 'Lora';
+    color: #636363;
+    font-weight: bold;
+}
+
+.features p, .footer p{
+    font-weight: 200;
+    color: #8D8B8B;
+}
+
+.container-deskripsi {
+    padding-bottom: 100px;
+}
+
+.container-achieve {
+    padding-bottom: 50px;
+}
+
+.ilustrasi {
+    height: 20px;
+    width: 50px;
+}
+
+.figure-img{
+    position: relative;
+    height: 300px;
+    width: 400px;
+}
+
+.figure-img-designer {
+    position: relative;
+    height: 160px;
+    width: 200px;
+    margin-right: 30px;
+}
+
+.figure-img a{
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 8px;
+    background-color: rgba(0, 0, 0, 0.7);
+    opacity: 0;
+}
+
+.figure-img:hover a{
+    opacity: 1;
+    transition: opacity 0.5s;
+}
+
+
+.designer {
+    background-color: #FFF1E7;
+}
+
+.designer h3{
+    font-family: 'Lora';
+    color: #636363;
+    font-weight: bold;
+}
+
+.designer p{
+    font-weight: 200;
+    color: #8D8B8B;
+}
+
+
+.message-wrapper {
+    border-bottom: 1px solid #eee;
+    padding-top: 50px;
+    padding-bottom: 150px;
+    text-align: center;
+  }
+  
+  .message {
+    padding: 15px 40px;
+    background-color: #5dca88;
+    cursor: pointer;
+    border-radius:40px;
+    box-shadow: 0 7px #1a7940;
+  }
+  
+  .message:active {
+    position: relative;
+    top: 7px;
+    box-shadow: none;
+  }
+
+  .footer {
+      background-color: black;
+  }
